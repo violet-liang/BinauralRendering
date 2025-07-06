@@ -2,11 +2,12 @@ name: sfa
 channels:
   - defaults
 dependencies:
-  - numpy=1.26.4
-  - python=3.9.23
-  - scipy=1.12.0
+  - numpy==1.26.4
+  - python==3.9.23
+  - scipy==1.12.0
   - h5py==3.14.0
-  - pysofaconventions==0.1.5
-  - sound_field_analysis
+  - pip:
+      - pysofaconventions==0.1.5
+      - git+https://github.com/AppliedAcousticsChalmers/sound_field_analysis-py.git
       
 
